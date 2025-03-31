@@ -1,0 +1,7 @@
+services:
+  cache:
+    build: .
+    ports:
+      - "7171:7171"
+    volumes:
+      - .:/app
